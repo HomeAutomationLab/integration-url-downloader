@@ -3,7 +3,7 @@
     "name": "URL Downloader",
     "documentation": "https://github.com/HomeAutomationLab/hacs-url-downloader",
     "issue_tracker": "https://github.com/HomeAutomationLab/hacs-url-downloader/issues",
-    "code_owners": ["@HomeAutomationLab"],
+    "codeowners": ["@HomeAutomationLab"],
     "iot_class": "local_push",
     "version": "0.1.0"
 }
