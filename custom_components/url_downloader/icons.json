@@ -1,0 +1,7 @@
+{
+    "services": {
+      "get_request": {"service": "mdi:download-outline"},
+      "post_request": {"service": "mdi:download-outline"},
+      "put_request": {"service": "mdi:download-outline"}
+    }
+}

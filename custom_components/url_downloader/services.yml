@@ -1,0 +1,95 @@
+get_request:
+  description: Perform a GET HTTP request
+  fields:
+    url:
+      required: true
+      example: https://google.com
+      selector:
+        text:
+          type: url
+    headers:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    payload:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    params:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+
+post_request:
+  description: Perform a POST HTTP request
+  fields:
+    url:
+      required: true
+      example: https://google.com
+      selector:
+        text:
+          type: url
+    headers:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    payload:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    params:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    content_type:
+      required: false
+      example: application/json
+      selector:
+        text:
+          type: text
+
+put_request:
+  description: Perform a PUT HTTP request
+  fields:
+    url:
+      required: true
+      example: https://google.com
+      selector:
+        text:
+          type: url
+    headers:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    payload:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    params:
+      required: false
+      selector:
+        text:
+          type: text
+          multiline: true
+    content_type:
+      required: false
+      example: application/json
+      selector:
+        text:
+          type: text
